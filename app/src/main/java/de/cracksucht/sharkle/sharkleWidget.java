@@ -11,6 +11,7 @@ package de.cracksucht.sharkle;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.widget.RemoteViews;
 import android.content.Intent;
 import android.app.PendingIntent;
@@ -62,6 +63,14 @@ public class sharkleWidget extends AppWidgetProvider {
 
            drawSharkleWave(manager, views, id);
            drawSharkleMove(manager, views, id);
+
+           // inc sharkles
+           SharedPreferences settings = context.getSharedPreferences("sharklOmeter", 0);
+           int sharkles = settings.getInt("sharkles", 0);
+           sharkles++;
+           SharedPreferences.Editor editor = settings.edit();
+           editor.putInt("sharkles", sharkles);
+           editor.apply();
        }
    }
 

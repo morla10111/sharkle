@@ -11,4 +11,5 @@ A SHARKLE widget for Android.
 ## screenshot
 
 ![sharkle screenshot](ghimg/sharkle-screenshot.jpg)
+![sharkle screenshot](ghimg/sharkle-app-screenshot.jpg)
 
