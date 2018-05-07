@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/sharkle_widget"
+    android:initialLayout="@layout/sharkle_widget"
+    android:minHeight="72dp"
+    android:minWidth="72dp"
+    android:previewImage="@drawable/sharkle_idle0"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"></appwidget-provider>
