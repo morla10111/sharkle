@@ -1,6 +1,6 @@
 # SHARKLE!
 
-A SHARKLE widget for Android.
+A "Night In The Woods" inspired SHARKLE widget for Android.
 
 ## install
 
@@ -18,5 +18,5 @@ Thanks to [SamusAranX](https://github.com/SamusAranX) for the nicely prepared im
 - Images: https://github.com/SamusAranX/Sharkle-for-Mac/tree/master/Sharkle/Assets.xcassets
 - Sounds: https://github.com/SamusAranX/Sharkle/tree/master/Sharkle/Sounds
 
-- The background image wa found here: http://i.imgur.com/d0darUx.png
+- The background image was found here: http://i.imgur.com/d0darUx.png
 
